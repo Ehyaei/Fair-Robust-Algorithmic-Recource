@@ -15,7 +15,7 @@ perturbation radius is zero. Finally, we introduce the fair robust
 recourse problem to achieve both desirable properties and show how it
 can be satisfied both theoretically and empirically.
 
-<table width="100%" border="0">
+<table width="90%" border="0">
 <tr>
 <td>
 <a>
