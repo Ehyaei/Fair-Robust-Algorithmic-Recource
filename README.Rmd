@@ -11,7 +11,9 @@ knitr::opts_chunk$set(
 )
 ```
 
-# Robustness implies Fairness in Casual Algorithmic Recourse
+<a href={https://github.com/Ehyaei/RTLNotes}><img src="images/counterfactualsvg.svg" alt="RTLNotes logo" align="right" width="160" style="padding: 0 15px; float: right;"/>
+
+# Robustness implies Fairness in Algorithmic Recourse
 
 This project implements the paper "Robustness implies Fairness in Casual Algorithmic Recourse" using the R language. 
 
