@@ -3,9 +3,6 @@
 
 # Robustness implies Fairness in Casual Algorithmic Recourse
 
-This project implements the paper “Robustness implies Fairness in Casual
-Algorithmic Recourse” using the R language.
-
 This paper explores the concept of fairness and robustness in causal
 algorithmic recourse, whereby the challenges of jointly achieving
 adversarially robust and individually fair recourse are examined. A
