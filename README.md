@@ -15,60 +15,7 @@ perturbation radius is zero. Finally, we introduce the fair robust
 recourse problem to achieve both desirable properties and show how it
 can be satisfied both theoretically and empirically.
 
-<table width="100%" border="0">
-<tr>
-<td>
-<a>
-<img src="images/110: SCM:LIN__label:LIN__w:unaware__b:0_h:GLM_l:unaware_delta:1.svg" width="100%" align="left" />
-</a>
-</td>
-<td>
-<a>
-<img src="images/111: SCM:ANM__label:LIN__w:unaware__b:0_h:GLM_l:unaware_delta:1.svg" width="100%" align="left" />
-</a>
-</td>
-<td>
-<a>
-<img src="images/112: SCM:LIN__label:LIN__w:unaware__b:0_h:GBM_l:unaware_delta:1.svg" width="100%" align="left" />
-</a>
-</td>
-</tr>
-</table>
-<table width="100%" border="0">
-<tr>
-<td>
-<a>
-<img src="images/113: SCM:ANM__label:LIN__w:unaware__b:0_h:GBM_l:unaware_delta:1.svg" width="300" align="left" />
-</a>
-</td>
-<td>
-<a>
-<img src="images/114: SCM:LIN__label:LIN__w:unaware__b:0_h:SVM_l:unaware_delta:1.svg" width="300" align="left" />
-</a>
-</td>
-<td>
-<a>
-<img src="images/115: SCM:ANM__label:LIN__w:unaware__b:0_h:SVM_l:unaware_delta:1.svg" width="300" align="left" />
-</a>
-</td>
-</tr>
-</table>
-<table width="100%" border="0">
-<tr>
-<td>
-<a>
-<img src="images/116: SCM:LIN__label:NLM__w:unaware__b:2_h:GBM_l:unaware_delta:1.svg" width="300" align="left" />
-</a>
-</td>
-<td>
-<a>
-<img src="images/117: SCM:ANM__label:NLM__w:unaware__b:2_h:GBM_l:unaware_delta:1.svg" width="300" align="left" />
-</a>
-</td>
-<td>
-<a>
-<img src="images/118: SCM:LIN__label:NLM__w:unaware__b:2_h:SVM_l:unaware_delta:1.svg" width="300" align="left" />
-</a>
-</td>
-</tr>
-</table>
+<img src="images/19: SCM:ANM__label:LIN__w:aware__b:0.svg" width="45%" align="left" />
+<img src="images/64: SCM:ANM__label:NLM__w:aware__b:2.svg" width="45%" align="right" />
+<img src="images/117: SCM:ANM__label:NLM__w:unaware__b:2_h:GBM_l:unaware_delta:1.svg" width="45%" align="left" />
+<img src="images/113: SCM:ANM__label:LIN__w:unaware__b:0_h:GBM_l:unaware_delta:1.svg" width="45%" align="right" />
