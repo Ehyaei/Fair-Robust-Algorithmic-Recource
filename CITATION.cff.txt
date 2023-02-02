@@ -7,4 +7,4 @@ authors:
 title: "RTLNotes"
 version: 0.1.4
 date-released: 2021-10-19
-url: "https://github.com/ehyaei/MPIThemes"
+url: "https://github.com/Ehyaei/Robustness-implies-Fairness"
