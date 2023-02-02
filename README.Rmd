@@ -37,6 +37,8 @@ Finally, we introduce the fair robust recourse problem to achieve both desirable
   </a>
   </td>
   </tr>
+  </table>
+<table width="100%" border="0">  
   <tr>    
   <td>
   <a>
@@ -54,7 +56,9 @@ Finally, we introduce the fair robust recourse problem to achieve both desirable
   </a>
   </td>
   </tr>
-    <tr>    
+</table>  
+  <table width="100%" border="0">
+  <tr>    
   <td>
   <a>
   <img src="images/116: SCM:LIN__label:NLM__w:unaware__b:2_h:GBM_l:unaware_delta:1.svg" width="300" align="left" />

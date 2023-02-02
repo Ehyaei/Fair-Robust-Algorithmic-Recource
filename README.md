@@ -33,6 +33,8 @@ can be satisfied both theoretically and empirically.
 </a>
 </td>
 </tr>
+</table>
+<table width="100%" border="0">
 <tr>
 <td>
 <a>
@@ -50,6 +52,8 @@ can be satisfied both theoretically and empirically.
 </a>
 </td>
 </tr>
+</table>
+<table width="100%" border="0">
 <tr>
 <td>
 <a>
