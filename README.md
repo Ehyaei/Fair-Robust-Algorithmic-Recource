@@ -19,17 +19,17 @@ can be satisfied both theoretically and empirically.
 <tr>
 <td>
 <a>
-<img src="images/110: SCM:LIN__label:LIN__w:unaware__b:0_h:GLM_l:unaware_delta:1.svg" width="300" align="left" />
+<img src="images/110: SCM:LIN__label:LIN__w:unaware__b:0_h:GLM_l:unaware_delta:1.svg" width="100%" align="left" />
 </a>
 </td>
 <td>
 <a>
-<img src="images/111: SCM:ANM__label:LIN__w:unaware__b:0_h:GLM_l:unaware_delta:1.svg" width="300" align="left" />
+<img src="images/111: SCM:ANM__label:LIN__w:unaware__b:0_h:GLM_l:unaware_delta:1.svg" width="100%" align="left" />
 </a>
 </td>
 <td>
 <a>
-<img src="images/112: SCM:LIN__label:LIN__w:unaware__b:0_h:GBM_l:unaware_delta:1.svg" width="300" align="left" />
+<img src="images/112: SCM:LIN__label:LIN__w:unaware__b:0_h:GBM_l:unaware_delta:1.svg" width="100%" align="left" />
 </a>
 </td>
 </tr>
