@@ -15,7 +15,7 @@ perturbation radius is zero. Finally, we introduce the fair robust
 recourse problem to achieve both desirable properties and show how it
 can be satisfied both theoretically and empirically.
 
-<img src="images/19: SCM:ANM__label:LIN__w:aware__b:0.svg" width="45%" align="left" />
 <img src="images/64: SCM:ANM__label:NLM__w:aware__b:2.svg" width="45%" align="right" />
-<img src="images/117: SCM:ANM__label:NLM__w:unaware__b:2_h:GBM_l:unaware_delta:1.svg" width="45%" align="left" />
+<img src="images/19: SCM:ANM__label:LIN__w:aware__b:0.svg" width="45%" align="left" />
 <img src="images/113: SCM:ANM__label:LIN__w:unaware__b:0_h:GBM_l:unaware_delta:1.svg" width="45%" align="right" />
+<img src="images/117: SCM:ANM__label:NLM__w:unaware__b:2_h:GBM_l:unaware_delta:1.svg" width="45%" align="left" />
