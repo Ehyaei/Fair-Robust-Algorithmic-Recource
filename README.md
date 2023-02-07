@@ -31,8 +31,6 @@ reproducing our experiments are available at
 
 ## Numerical Simulation
 
-$\sqrt{1}$
-
 Since the recourse actions require knowledge of the underlying SCM, we
 begin by defining two linear and non-linear ANM models for the SCM. In
 our experiments, we utilize two non-protected continuous features
@@ -42,21 +40,25 @@ $A$
 with a value of either 0
 or 1. The structural equations of linear SCM (LIN) is given by:
 
-$$
+```math
 \begin{cases}
 A := U_A, &             U_A \sim \mathcal{R}(0.5)   \\
 X_1 := 2A + U_1, &  U_1\sim \mathcal{N}(0,1)    \\
 X_2 := A-X_1 + U_2, &           U_2 \sim \mathcal{N}(0,1)
 \end{cases}
-$$ For the non-linear SCM (ANM) the following structural equations:
+```
 
-$$
+For the non-linear SCM (ANM) the following structural equations:
+
+```math
 \begin{cases}
 A := U_A, &             U_A \sim \mathcal{R}(0.5)   \\
 X_1 := 2A^2 + U_1, &    U_1\sim \mathcal{N}(0,1)    \\
 X_2 := AX_1 + U_2, &            U_2 \sim \mathcal{N}(0,1)
 \end{cases}
-$$ where $\mathcal{R}(p)$ is Rademacher random variables with
+```
+
+where $\mathcal{R}(p)$ is Rademacher random variables with
 probability $p$ and $\mathcal{N}(\mu,\sigma^2)$ is normal r.v. with mean
 $\mu$ and variance $\sigma^2$. To see, modified or define new SCM, see
 the script `utils/scm_models.R`.
