@@ -31,6 +31,7 @@ reproducing our experiments are available at
 
 ## Numerical Simulation
 
+$\sqrt{1}$
 Since the recourse actions require knowledge of the underlying SCM, we
 begin by defining two linear and non-linear ANM models for the SCM. In
 our experiments, we utilize two non-protected continuous features
