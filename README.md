@@ -34,7 +34,10 @@ reproducing our experiments are available at
 Since the recourse actions require knowledge of the underlying SCM, we
 begin by defining two linear and non-linear ANM models for the SCM. In
 our experiments, we utilize two non-protected continuous features
-($X_i$) and a binary protected attribute ($A$) with a value of either 0
+$X_i$
+and a binary protected attribute 
+$A$ 
+with a value of either 0
 or 1. The structural equations of linear SCM (LIN) is given by:
 
 $$
