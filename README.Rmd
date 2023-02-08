@@ -14,6 +14,11 @@ knitr::opts_chunk$set(
 )
 ```
 
+<head>
+  <link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/Ehyaei/Robustness-implies-Fairness/master/style.css">
+</head>
+
+
 <a href={https://github.com/Ehyaei/RTLNotes}><img src="images/counterfactualsvg.svg" alt="RTLNotes logo" align="right" width="160" style="padding: 0 15px; float: right;"/>
 
 # Robustness Implies Fairness in Causal Algorithmic Recourse
