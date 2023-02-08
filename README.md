@@ -146,7 +146,7 @@ version of the UCI Adult dataset , which contains over 195,000 records
 from California state in 2018. The data was obtained by using the
 Folktables Python package . To fetch data, we used the
 `utils/fetch_adult_data.py` script.
-<div style="background-color: blue;">
+<div style="background-color: blue important!;">
 <div class="container st-container">
 <h3>Data Frame Summary</h3>
 <h4>ASCIncome</h4>
