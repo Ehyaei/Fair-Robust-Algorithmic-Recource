@@ -1,8 +1,5 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-<head>
-<link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/Ehyaei/Robustness-implies-Fairness/main/style.css">
-</head>
 
 <a href={https://github.com/Ehyaei/RTLNotes}><img src="images/counterfactualsvg.svg" alt="RTLNotes logo" align="right" width="160" style="padding: 0 15px; float: right;"/>
 
