@@ -19,6 +19,24 @@ robustness. Finally, we introduce the fair robust recourse problem to
 achieve both desirable properties and show how it can be satisfied both
 theoretically and empirically.
 
+If you find it useful, please consider citing:
+
+    @misc{https://doi.org/10.48550/arxiv.2302.03465,
+      doi = {10.48550/ARXIV.2302.03465},
+      
+      url = {https://arxiv.org/abs/2302.03465},
+      
+      author = {Ehyaei, Ahmad-Reza and Karimi, Amir-Hossein and Schölkopf, Bernhard and Maghsudi, Setareh},
+      
+      keywords = {Machine Learning (cs.LG), FOS: Computer and information sciences, FOS: Computer and information sciences},
+      
+      title = {Robustness Implies Fairness in Casual Algorithmic Recourse},
+      
+      publisher = {arXiv},
+      
+      year = {2023},
+    }
+
 # Experiments
 
 In our experiments, we validate our claims through experiments and
@@ -60,7 +78,7 @@ To add the ground truth label, we consider both linear and non-linear
 functions in the form of $Y = sign(f(v,w) - b)$, where
 $w \in \mathbb{R}^{n+1}$ is coefficient of $V_i$ and $b \in \mathbb{R}$.
 We also examine an unaware baseline where $h$ does not depend on
-protected variable $A$. The lebel functions formula is given by:
+protected variable $A$. The label functions formula is given by:
 
 $$
 h(A, X_1,X_2,X_3) = 
@@ -77,15 +95,16 @@ model, we generate 10,000 samples through utilizing the structural
 equations of the SCMs. The following presents two examples of data
 generation.
 
-<img src="images/19: SCM:ANM__label:LIN__w:aware__b:0.svg" width="100%" align="center" />
-<img src="images/64: SCM:ANM__label:NLM__w:aware__b:2.svg" width="100%" align="center" />
+<img src="images/19: SCM:ANM__label:LIN__w:aware__b:0.svg" width="100%" align="center"/>
+<img src="images/64: SCM:ANM__label:NLM__w:aware__b:2.svg" width="100%" align="center"/>
 
 For each dataset, we split the samples into 80% for training and 20% for
 testing. Then, we train a logistic regression (LR), support vector
 machine (SVM), and gradient boosting machine (GBM) using all features or
 just the non-protected features $\mathbf{X}$ as an unaware baseline. We
-use the package to train models and the for tuning hyperparameters with
-the below searching parameters:
+use the \\citet{h2o.ai} package to train models and the
+\\textit{h2o.grid} for tuning hyperparameters with the below searching
+parameters:
 
 -   **GLM**: use `alpha = seq(0, 1, 0.1)` with `lambda_search = TRUE`.
 -   **SVM**: set `gamma = 0.01` , `rank_ratio = 0.1`, and use a Gaussian
@@ -96,8 +115,8 @@ the below searching parameters:
 
 To find the classifier’s scripts see `utils/models.R`. The decision
 boundary for the two models is displayed in the figures below.
-<img src="images/16: SCM:LIN__label:LIN__w:aware__b:0_h:GBM_l:aware.svg" width="100%" align="center" />
-<img src="images/20: SCM:LIN__label:NLM__w:aware__b:2_h:GBM_l:aware.svg" width="100%" align="center" />
+<img src="images/16: SCM:LIN__label:LIN__w:aware__b:0_h:GBM_l:aware.svg" width="100%" align="center"/>
+<img src="images/20: SCM:LIN__label:NLM__w:aware__b:2_h:GBM_l:aware.svg" width="100%" align="center"/>
 
 We consider discrete and trivial pseudometric ($d(a,a')=0$ for all
 $a,a'$) for protected feature $A$. For continuous variables and product
@@ -113,5 +132,5 @@ recourse can be found in the `utils/models.R` file. In the below the
 adversarial recourse in some simulations, with $\Delta=1$, for unaware
 labels and classifiers, including instances and their twins is show.
 
-<img src="images/117: SCM:ANM__label:NLM__w:unaware__b:2_h:GBM_l:unaware_delta:1.svg" width="100%" align="center" />
-<img src="images/113: SCM:ANM__label:LIN__w:unaware__b:0_h:GBM_l:unaware_delta:1.svg" width="100%" align="center" />
+<img src="images/117: SCM:ANM__label:NLM__w:unaware__b:2_h:GBM_l:unaware_delta:1.svg" width="100%" align="center"/>
+<img src="images/113: SCM:ANM__label:LIN__w:unaware__b:0_h:GBM_l:unaware_delta:1.svg" width="100%" align="center"/>
