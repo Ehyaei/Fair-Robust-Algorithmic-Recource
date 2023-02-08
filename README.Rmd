@@ -160,3 +160,17 @@ $$Y\sim \text{Bernoulli}\left(\left(1+e^{-0.3(-L-D+I+S+IS)}\right)^{-1}\right).$
 <img src="images/9: SCM:SYN__label:SYN__w:__b:-1.svg" width="100%" align="center"/> 
 </div>
 
+## Main References
+
+[1] Dominguez-Olmedo, Ricardo, Amir H. Karimi, and Bernhard Schölkopf. "On the adversarial robustness of causal algorithmic recourse." International Conference on Machine Learning. PMLR, 2022.
+
+[2] von Kügelgen, Julius, et al. "On the fairness of causal algorithmic recourse." Proceedings of the AAAI Conference on Artificial Intelligence. Vol. 36. No. 9. 2022.
+
+[3] Karimi, Amir-Hossein, Bernhard Schölkopf, and Isabel Valera. "Algorithmic recourse: from counterfactual explanations to interventions." Proceedings of the 2021 ACM conference on fairness, accountability, and transparency. 2021.
+
+[4] Glymour, Madelyn, Judea Pearl, and Nicholas P. Jewell. Causal inference in statistics: A primer. John Wiley & Sons, 2016.
+
+[5] Peters, Jonas, Dominik Janzing, and Bernhard Schölkopf. Elements of causal inference: foundations and learning algorithms. The MIT Press, 2017.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
