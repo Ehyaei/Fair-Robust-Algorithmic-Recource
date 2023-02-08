@@ -15,7 +15,7 @@ knitr::opts_chunk$set(
 ```
 
 <head>
-  <link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/Ehyaei/Robustness-implies-Fairness/master/style.css">
+  <link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/Ehyaei/Robustness-implies-Fairness/main/style.css">
 </head>
 
 
