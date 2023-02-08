@@ -138,7 +138,8 @@ print(dfSummary(ASCIncome,
                 valid.col    = FALSE,
                 footnote     = NA,
                 graph.magnif = 0.76),
-      method = 'render', footnote = NA, bootstrap.css = T)
+      method = 'render', footnote = NA, 
+      bootstrap.css = T, custom.css = "style.css")
 ```
 
 
