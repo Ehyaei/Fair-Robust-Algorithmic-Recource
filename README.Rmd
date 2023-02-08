@@ -139,7 +139,7 @@ print(dfSummary(ASCIncome,
                 footnote     = NA,
                 graph.magnif = 0.76),
       method = 'render', footnote = NA, 
-      bootstrap.css = T, custom.css = "style.css")
+      bootstrap.css = F, custom.css = "style.css")
 ```
 
 
