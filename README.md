@@ -23,17 +23,11 @@ If you find it useful, please consider citing:
 
     @misc{https://doi.org/10.48550/arxiv.2302.03465,
       doi = {10.48550/ARXIV.2302.03465},
-      
       url = {https://arxiv.org/abs/2302.03465},
-      
-      author = {Ehyaei, Ahmad-Reza and Karimi, Amir-Hossein and Schölkopf, Bernhard and Maghsudi, Setareh},
-      
-      keywords = {Machine Learning (cs.LG), FOS: Computer and information sciences, FOS: Computer and information sciences},
-      
+      author = {Ehyaei, Ahmad-Reza and Karimi, Amir-Hossein and 
+      Schölkopf, Bernhard and Maghsudi, Setareh},
       title = {Robustness Implies Fairness in Casual Algorithmic Recourse},
-      
       publisher = {arXiv},
-      
       year = {2023},
     }
 
