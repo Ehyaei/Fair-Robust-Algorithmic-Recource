@@ -130,18 +130,33 @@ In the below the adversarial recourse in some simulations, with $\Delta=1$, for 
 We use the Adult Income Demographic dataset (ACSIncome), an updated version of the UCI Adult dataset , which contains over 195,000 records from California state in 2018. The data was obtained by using the Folktables Python package \cite{Folktables}.
 To fetch data, we used the `utils/fetch_adult_data.py` script.
 
-```{r, results='asis', echo=FALSE,message=FALSE, comment=""}
-ASCIncome <- readr::read_csv("datasets/ASCIncome.csv")
-library(summarytools)
-print(dfSummary(ASCIncome, 
-                varnumbers   = FALSE, 
-                valid.col    = FALSE,
-                footnote     = NA,
-                graph.magnif = 0.76),
-      method = 'render', footnote = NA, 
-      bootstrap.css = F, custom.css = "style.css")
-```
+The data processing and modeling procedures adopted in this study are consistent with those reported in Nabi and Shpitser work. 
+
+<div style=”width:100%”>
+<img src="images/ACSIncome.svg" width="100%" align="center"/> 
+</div>
+
+Furthermore, we consider a semi-synthetic SCM proposed by Karimi et al that is based on a loan approval scenario. The data aims to reflect the intuitive relationships between variables in a practical loan approval process.
+
+This semi-synthetic data consists of gender, age, education, loan amount, duration, 
+income, and saving variables with the following structural equations and exogenous distributions:
 
 
-The data processing and modeling procedures adopted in this study are consistent with those reported in Nabi and Shpitser work. In addition, we analyze a semi-synthetic SCM proposed in  Karimi et al, based on a loan approval scenario. For semi-synthetic data, all of the procedures are the same as in the numerical simulations section. 
+$$\begin{cases}
+G := U_G  & U_G \sim \text{Bernoulli}(0.5)\\
+A := -35+U_A & U_A \sim \text{Gamma}(10, 3.5) \\
+E := -0.5 + \bigg(1 + e^{-\big(-1 + 0.5 G + (1 + e^{- 0.1 A})^{-1} + U_E \big)}\bigg)^{-1}  & U_E \sim \mathcal{N}(0,0.25) \\
+L := 1 + 0.01 (A - 5) (5 - A) + G + U_L & U_L \sim \mathcal{N}(0,4) \\
+D := -1 + 0.1A + 2G + L + U_D & U_D \sim \mathcal{N}(0, 9)\\
+I := -4 + 0.1(A + 35) + 2G + G E + U_I &  U_I \sim \mathcal{N}(0, 4)\\
+S :=  -4 + 1.5 \mathbb{I}_{\{I > 0\}} I + U_S & U_S\sim\mathcal{N}(0, 25)
+\end{cases}$$
+
+The labels $Y$ were generated using the following formula:
+
+$$Y\sim \text{Bernoulli}\left(\left(1+e^{-0.3(-L-D+I+S+IS)}\right)^{-1}\right).$$
+
+<div style=”width:100%”>
+<img src="images/9: SCM:SYN__label:SYN__w:__b:-1.svg" width="100%" align="center"/> 
+</div>
 
