@@ -146,7 +146,7 @@ version of the UCI Adult dataset , which contains over 195,000 records
 from California state in 2018. The data was obtained by using the
 Folktables Python package . To fetch data, we used the
 `utils/fetch_adult_data.py` script.
-
+<div style="background-color: blue important!;">
 <div class="container st-container">
 <h3>Data Frame Summary</h3>
 <h4>ASCIncome</h4>
@@ -266,7 +266,7 @@ Folktables Python package . To fetch data, we used the
   </tbody>
 </table>
 </div>
-
+</div>
 The data processing and modeling procedures adopted in this study are
 consistent with those reported in Nabi and Shpitser work. In addition,
 we analyze a semi-synthetic SCM proposed in Karimi et al, based on a
