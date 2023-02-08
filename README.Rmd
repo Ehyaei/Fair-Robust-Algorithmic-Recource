@@ -120,5 +120,22 @@ In the below the adversarial recourse in some simulations, with $\Delta=1$, for 
 <img src="images/113: SCM:ANM__label:LIN__w:unaware__b:0_h:GBM_l:unaware_delta:1.svg" width="45%" align="center"/>
 </div>
 
+## Case Studies
 
+We use the Adult Income Demographic dataset (ACSIncome), an updated version of the UCI Adult dataset , which contains over 195,000 records from California state in 2018. The data was obtained by using the Folktables Python package \cite{Folktables}.
+To fetch data, we used the `utils/fetch_adult_data.py` script.
+
+```{r, results='asis', echo=FALSE,message=FALSE, comment=""}
+ASCIncome <- readr::read_csv("datasets/ASCIncome.csv")
+library(summarytools)
+print(dfSummary(ASCIncome, 
+                varnumbers   = FALSE, 
+                valid.col    = FALSE,
+                footnote     = NA,
+                graph.magnif = 0.76),
+      method = 'render')
+```
+
+
+The data processing and modeling procedures adopted in this study are consistent with those reported in Nabi and Shpitser work. In addition, we analyze a semi-synthetic SCM proposed in  Karimi et al, based on a loan approval scenario. For semi-synthetic data, all of the procedures are the same as in the numerical simulations section. 
 
